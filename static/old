@@ -1,0 +1,12 @@
+   <ideeEsclaveGrappe v-for="grappe in idee.listeGrappe" 
+          :key="getRandidee()" 
+          :grappe="grappe" 
+          :name="getRandidee()"> </ideeEsclaveGrappe>
+        
+        
+-- grappe --
+           components: {
+     grappeIdeeE: IdeeView
+   }
+   
+    import IdeeView from './IdeeView'
